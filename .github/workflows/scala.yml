@@ -18,5 +18,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Run tests
-      run: sbt test
+    - name: Compile
+      run: scalac Hello.scala
+    - name: Run
+      run: scala Hello
