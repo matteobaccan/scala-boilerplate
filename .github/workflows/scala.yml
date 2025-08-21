@@ -13,6 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v5
-    - uses: olafurpg/setup-scala@v11
+    - uses: olafurpg/setup-scala@v14
     - name: Compile
       run: sbt Hello
